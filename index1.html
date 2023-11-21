@@ -1,55 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Finger</title>
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-    
-    <div class="name">FAST FINGERS</div>
-    <div class="wrapper">
-        
-        
-        
-        <input type="text" class="input-field">
-        <div class="content-box">
-            <div class="typing-text">
-                <p id="paragraph"></p>
-            </div>
-            <div class="content">
-                <ul class="result-details">
-                    <li class="time">
-                        <p>
-                            time left:
-                        </p>
-                        <span><b>30</b>s</span>
-                    </li>
-                    <li class="mistake">
-                        <p>
-                            Mistake:
-                        </p>
-                        <span>0</span>
-                    </li>
-                    <li class="wpm">
-                        <p>
-                            WPM:
-                        </p>
-                        <span>0</span>
-                    </li>
-                    <li class="cpm">
-                        <p>
-                            CPM:
-                        </p>
-                        <span>0</span>
-                    </li>
-                </ul>
-                <button>Try Again</button>
-            </div>
-        </div>
-    </div>
-    <script src="script.js" defer></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Fast Finger</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<div class="name">FAST FINGERS</div>
+		<div class="wrapper">
+			<input
+				type="text"
+				class="input-field"
+			/>
+			<div class="content-box">
+				<div class="typing-text">
+					<p id="paragraph"></p>
+				</div>
+				<div class="content">
+					<ul class="result-details">
+						<li class="time">
+							<p>time left:</p>
+							<span><b>30</b>s</span>
+						</li>
+						<li class="mistake">
+							<p>Mistake:</p>
+							<span>0</span>
+						</li>
+						<li class="wpm">
+							<p>WPM:</p>
+							<span>0</span>
+						</li>
+						<li class="cpm">
+							<p>CPM:</p>
+							<span>0</span>
+						</li>
+					</ul>
+					<button>Try Again</button>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper_keyboard">
+			<div class="keyboard">
+				<div class="row">
+					<div class="key">Q</div>
+					<div class="key">W</div>
+					<div class="key">E</div>
+					<div class="key">R</div>
+					<div class="key">T</div>
+					<div class="key">Y</div>
+					<div class="key">U</div>
+					<div class="key">I</div>
+					<div class="key">O</div>
+					<div class="key">P</div>
+				</div>
+				<div class="row">
+					<div class="key">A</div>
+					<div class="key">S</div>
+					<div class="key">D</div>
+					<div class="key">F</div>
+					<div class="key">G</div>
+					<div class="key">H</div>
+					<div class="key">J</div>
+					<div class="key">K</div>
+					<div class="key">L</div>
+				</div>
+				<div class="row">
+					<div class="key">Z</div>
+					<div class="key">X</div>
+					<div class="key">C</div>
+					<div class="key">V</div>
+					<div class="key">B</div>
+					<div class="key">N</div>
+					<div class="key">M</div>
+				</div>
+				<div class="row">
+					<div class="keySpace">Space</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="script.js"
+			defer
+		></script>
+	</body>
 </html>
