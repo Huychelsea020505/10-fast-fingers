@@ -14,7 +14,7 @@ body {
 	/* justify-content: center; */
 	padding-top: 80px;
 	min-height: 100vh;
-	/* background: linear-gradient(#007acc, #6dd5fa, #ffffff); */
+	background: linear-gradient( #063268,#055aa9, #858282); 
 }
 #paragraph {
 	color: #646669;
@@ -261,3 +261,14 @@ li:not(:first-child) span {
   .key.typing-animation {
 	animation: typing 0.5s ease-in-out;
   }
+  .name
+  {
+	font-size: 40px ;
+	padding-bottom: 20px;
+	color: #ffffff;
+	padding-top: -30px ;
+  }
+.keyboard
+{
+	background: #1e1e1e;
+}
