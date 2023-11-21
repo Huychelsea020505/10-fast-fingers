@@ -227,7 +227,7 @@ li:not(:first-child) span {
 	transition: background-color 0.3s ease;
 }
 
-.keySpace {
+#Space {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -244,3 +244,20 @@ li:not(:first-child) span {
 .key:hover {
 	background-color: #d1d1d1;
 }
+
+/* Typing animation */
+@keyframes typing {
+	0% {
+	  background-color: #e0e0e0;
+	}
+	50% {
+	  background-color: #4c4c4c;
+	}
+	100% {
+	  background-color: #e0e0e0;
+	}
+  }
+  
+  .key.typing-animation {
+	animation: typing 0.5s ease-in-out;
+  }
